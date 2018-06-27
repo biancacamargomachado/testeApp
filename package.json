@@ -1,0 +1,25 @@
+{
+  "name": "biancacamargomachado.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://biancacamargomachado.github.io/",
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biancacamargomachado/biancacamargomachado.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biancacamargomachado/biancacamargomachado.github.io/issues"
+  }
+}
