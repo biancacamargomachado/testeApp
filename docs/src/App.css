@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+  margin: 0px 0px 20px 0px
+}
+
+.btn-primary{
+  background-color: #0d3f96;
+  border: 1px #0d3f96;
+}
+
+button .btn-primary:hover{
+  background-color: #0d3f96;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.a {
+  margin-top: 20px
+}
+
+@media (min-width: 768px) {
+  .a {
+    margin-top: 100px
+  }
+}
